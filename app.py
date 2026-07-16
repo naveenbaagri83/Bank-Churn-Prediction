@@ -1,5 +1,5 @@
 import numpy as np
-streamlit as st, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template
 
 import joblib
 # from tensorflow.keras.models import load_model
